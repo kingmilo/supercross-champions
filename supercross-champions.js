@@ -101,23 +101,3 @@ const countChampionships = (name, champ) => {
 const sortByChampionships = riders.sort((a,b) => b.championships.length - a.championships.length)
 const riderName = sortByChampionships.map(item => countChampionships(item.name, item.championships))
 console.log(riderName)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
